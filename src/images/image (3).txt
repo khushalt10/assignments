@@ -1,0 +1,6 @@
+~then((response) => Promise.all([response.json(), response.headers]))
+_then(([body, headers]) => {
+
+setJwt (headers. get ("authorization"));
+
+‘console.log( we have the JWT: ${jwt});
